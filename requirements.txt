@@ -33,3 +33,8 @@ urllib3==2.7.0
 soupsieve==2.8.3
 pyarrow==25.0.0
 openpyxl==3.1.5
+scikit-learn==1.8.0
+lightgbm==4.6.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+# macOS note: LightGBM needs OpenMP — `brew install libomp` (arm64 Homebrew: /opt/homebrew)
